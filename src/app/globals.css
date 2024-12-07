@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #d7d7d7;
+  --foreground: #171717;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #d7d7d7;
+  }
+}
+
+body {
+  /* color: var(--foreground); */
+  /* background: var(--background); */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: #1D4ED8; Warna biru dari Tailwind bg-blue-500
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
