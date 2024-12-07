@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
-      <footer style={{ marginTop: '20px', padding: '10px', backgroundColor: '#ddd' }}>
-        <p>&copy; 2024 My App. All Rights Reserved.</p>
+      <footer className="flex justify-end items-center bottom-0 w-full h-[469px] bg-[#046e89]">
+        <div></div>
       </footer>
     );
   }
