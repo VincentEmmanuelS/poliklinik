@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 export default function Home() {
   // return <h1>Hello, Next.js!</h1>
   return (
-    <div style={{ height: '200vh' }} className="overflow-auto">
+    <div className="overflow-auto">
       <Navbar />
       <main className="pt-20">
         <h1 className="text-3xl font-bold">Welcome to My Website</h1>
