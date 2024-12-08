@@ -9,12 +9,21 @@
 <body>
     <div id="navbar"></div>
 
+    <div class="sticky top-0 bg-red-500 z-50">Test</div>
+
     <div class="content">
-        <p>Selamat datang di Klinik Vida!</p>
+        <div class="relative">
+            <img 
+              src="./images/HomepageBG.png" 
+              alt="Homepage Image"
+              class="w-full h-auto filter blur-sm transform scale-x-[-1]"
+            />
+          </div>
     </div>
 
     <div id="footer"></div>
 
+    <!-- Panggil komponen dari folder components -->
     <script>
         fetch('./components/navbar.html')
             .then(response => response.text())
